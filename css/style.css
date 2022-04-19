@@ -322,6 +322,7 @@ p {
 .slider img {
     width: 100%;
     max-width: 900px;
+    max-height: 90%;
 }
 .slider-item-01 {
     content: url(../img/banner-01.png);
