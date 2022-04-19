@@ -311,7 +311,7 @@ p {
     justify-content: space-between;
 }
 .slider {
-    max-height: 30%;
+    max-height: 28%;
     position: absolute;
     bottom: 4%;
     width: 100%;
@@ -322,7 +322,6 @@ p {
 .slider img {
     width: 100%;
     max-width: 900px;
-    max-height: 90%;
 }
 .slider-item-01 {
     content: url(../img/banner-01.png);
