@@ -1,9 +1,13 @@
+@font-face {
+    font-family: Segoe Script;
+    src: url('/fonts/segoescript.ttf');
+}
 html,
 body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe Script', sans-serif;
     font-size: 1.6rem;
 }
 html {
@@ -76,6 +80,7 @@ p {
     width: 50%;
 }
 .header-menu-item {
+    font-family: 'Roboto', sans-serif;
     position: relative;
     display: flex;
     align-items: center;
@@ -137,6 +142,7 @@ p {
 .right-h6 {
     text-transform: uppercase;
     color: var(--gray-color);
+    font-style: 1.3rem;
 }
 .left-h6 {
     padding: 20px 0 5px 6%;
@@ -159,20 +165,19 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(41, 43, 43, 0.9);
+    background-color: transparent;
     max-width: 60%;
-    height: 25%;
-    margin-right: 5%;
+    height: auto;
+    margin-right: 10%;
     margin-left: auto;
     margin-top: 5%;
     border-radius: 10px;
     text-align: center;
-    transition: background-color 250ms ease-in-out 0s;
-    border: 2px solid var(--gray-color);
+    border: none;
 }
-.buy-to-click:hover {
+/* .buy-to-click:hover {
     background-color: rgba(41, 43, 43, 1);
-}
+} */
 @keyframes blink {
     50% {
         opacity: 1;
@@ -185,17 +190,25 @@ p {
     }
 }
 .buy-to-click p {
+    /* color: var(--dark-color) !important; */
+    position: absolute;
+    top: 10px;
+    right: 10%;
     text-transform: uppercase;
     color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
     margin-bottom: 5%;
     animation: blink 1.5s linear infinite;
+    z-index: 110;
 }
 .buy-to-click-logo {
-    max-width: 70%;
+    position: relative;
+    bottom: 0;
+    max-width: 100%;
     display: inline;
-    opacity: 0.8;
+    opacity: 0.95;
 }
 .buy-to-click:hover p {
     animation: none;
@@ -232,18 +245,30 @@ p {
     } */
 }
 @media screen and (max-width: 1536px) {
-    .buy-to-click {
+    /* .buy-to-click {
         height: 35%;
-    }
+    } */
 }
 @media screen and (max-width: 992px) {
-    .buy-to-click {
+    /* .buy-to-click {
         height: 25%;
+    } */
+    .buy-to-click p {
+        top: 10px;
+        right: 10%;
     }
 }
 @media screen and (max-width: 575px) {
     .buy-to-click p {
-        font-size: 1rem;
+        padding: 5px 0;
+        font-size: 0.8rem;
+        top: 5px;
+        right: 10%;
+    }
+}
+@media screen and (max-width: 359px) {
+    .buy-to-click p {
+        font-size: 0.5rem;
     }
 }
 .about__main-image {
