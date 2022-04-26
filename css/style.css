@@ -190,6 +190,11 @@ p {
     text-align: center;
     border: none;
 }
+@media screen and (max-width: 1536px) {
+    .genshin-offer {
+        margin-top: 3% !important;
+    }
+}
 @keyframes blink {
     50% {
         opacity: 1;
