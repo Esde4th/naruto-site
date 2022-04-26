@@ -260,9 +260,15 @@ p {
 @media screen and (max-width: 575px) {
     .buy-to-click p {
         padding: 5px 0;
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         top: 5px;
         right: 10%;
+    }
+    .left-h6,
+    .right-h6 {
+        text-align: center;
+        font-size: 0.5rem;
+        padding-top: 1%;
     }
 }
 @media screen and (max-width: 359px) {
