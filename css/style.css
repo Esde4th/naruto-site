@@ -193,6 +193,11 @@ p {
         margin-top: 3% !important;
     }
 }
+@media screen and (max-width: 1366px) {
+    .genshin-offer {
+        margin-top: 1% !important;
+    }
+}
 @keyframes blink {
     50% {
         opacity: 1;
