@@ -269,15 +269,43 @@ p {
     }
 }
 @media screen and (max-width: 575px) {
+    .about__main-information__grid {
+        grid-template-columns: 0fr 0fr 2fr;
+    }
+    .left-h6,
+    .left-img {
+        display: none;
+    }
+    .flex-container-left {
+        height: 55%;
+        position: relative;
+        left: 50%;
+        flex-direction: column;
+        transform: translateX(-50%);
+        display: flex;
+        max-width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .buy-to-click {
+        padding: 0;
+        padding-top: 1%;
+        max-height: 50%;
+    }
+    .buy-to-click-logo {
+        max-height: 95% !important;
+    }
     .buy-to-click p {
         padding: 5px 0;
-        font-size: 0.8rem;
+        font-size: 1rem;
         top: 5px;
         right: 10%;
     }
-    .left-h6,
     .right-h6 {
-        font-size: 0.5rem;
+        font-size: 1rem;
+        padding: 0;
+        padding-top: 1%;
+        margin: auto;
     }
 }
 @media screen and (max-width: 359px) {
