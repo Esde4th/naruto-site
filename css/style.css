@@ -84,7 +84,7 @@ p {
     background-color: rgba(41, 43, 43, 0.9);
     border-radius: 5px;
     margin-right: 10px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: var(--background-color);
     padding: 10px;
     width: 30%;
@@ -127,7 +127,7 @@ p {
 }
 .about__main-information__grid {
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 3fr 1fr 3fr;
     height: 100%;
 }
 .main-information__grid-item {
@@ -136,7 +136,7 @@ p {
 }
 .left-h6,
 .right-h6 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'Caveat', cursive;
     font-weight: 700;
     text-transform: uppercase;
