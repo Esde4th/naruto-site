@@ -277,7 +277,7 @@ p {
         display: none;
     }
     .flex-container-left {
-        height: 55%;
+        height: 45%;
         position: relative;
         left: 50%;
         flex-direction: column;
