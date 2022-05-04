@@ -277,15 +277,15 @@ p {
         display: none;
     }
     .flex-container-left {
-        height: 45%;
+        height: 50%;
         position: relative;
         left: 50%;
-        flex-direction: column;
+        flex-direction: row;
         transform: translateX(-50%);
         display: flex;
         max-width: 90%;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
     .buy-to-click {
         padding: 0;
